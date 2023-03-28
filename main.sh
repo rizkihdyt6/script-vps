@@ -29,7 +29,7 @@ TIME=$(date +'%Y-%m-%d %H:%M:%S')
 RAMMS=$(free -m | awk 'NR==2 {print $2}')
 KEY="5893916269:AAFoRG0z9y0Rewi6K3bF6_momM9Wyom6BGE"
 URL="https://api.telegram.org/bot$KEY/sendMessage"
-REPO="https://raw.githubusercontent.com/rizkihdyt6/scriptvps/master/"
+REPO="https://raw.githubusercontent.com/rizkihdyt6/script-vps/master/"
 APT="apt-get -y install "
 domain=$(cat /root/domain)
 start=$(date +%s)
